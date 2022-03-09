@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Netflix Sans", sans-serif;
+  src: url(../fonts/NetflixSansLight.ttf);
+}
+
+html {
+  font-family: "Netflix Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+* {
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Netflix Sans", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 450;
+}
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+blockquote {
+  border-left: rgb(221, 221, 221);
+  font-style: italic;
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 320px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 16px;
+  }
+}
